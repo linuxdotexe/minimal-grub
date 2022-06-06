@@ -1,0 +1,36 @@
+title-text: "The night beckons."
+title-color: "#ffffff"
+desktop-color: "#000000"
+terminal-font: "BlexMono Nerd Font 18"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ boot_menu {
+  left = 40%
+  top = 40%
+  width = 30%
+  height = 30%
+  item_font = "BlexMono Nerd Font 25"
+  item_color = "#ffffff"
+  selected_item_color = "#03A062"
+  icon_width = 0
+  icon_height = 0
+  item_icon_space = 0
+  item_height = 32
+  item_padding = 0
+  item_spacing = 20
+}
+
++ label {
+  top = 82%
+  left = 32%
+  width = 36%
+  align = "center"
+  id = "__timeout__"
+  text = "Entering Arch Linux in %d seconds"
+  color = "#ffffff"
+  font = "BlexMono Nerd Font 16"
+}
